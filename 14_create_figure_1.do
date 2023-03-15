@@ -149,7 +149,7 @@ graph combine ///
 	"${project_directory}\figures\_TEMP\fig1d.gph", ///
 	col(2) row(2) ysize(6.25) xsize(9) scheme(s2mono) imargin(medsmall)
 
-graph export "${project_directory}\figures\figure_1.jpg", as(jpg) replace
+graph export "${project_directory}\figures\figure_1.eps", as(eps) replace
 
 erase "${project_directory}\data\_TEMP\ILcoord.dta"
 erase "${project_directory}\data\_TEMP\ILdb.dta"

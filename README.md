@@ -1,10 +1,10 @@
 # skills_gaps_lead
 
-This repository contains replication code for "Environmental Inequality and Disparities in School Readiness: The Role of Neurotoxic Lead"
+This repository contains replication materials for "Environmental Inequality and Disparities in School Readiness: The Role of Neurotoxic Lead"
 
 The data on which it is based are restricted-access and can only be obtained under special contractual arrangements that preclude their dissemination by the authors.
 
-Researchers interested in obtaining these data may follow the procedures outlined at
+Researchers interested in obtaining these data may follow the procedures outlined at:
 
 https://www.icpsr.umich.edu/web/pages/ICPSR/access/restricted/index.html for the PHDCN; 
 
@@ -17,5 +17,9 @@ The specific files used from these sources are documented within the replication
 Once these data files have been obtained, the user will need to:
 
 1. install the Stata and R packages documented in the _RPACKS and _STATAMODS folders
-2. appropriately update the directory paths in all Stata do files and R scripts
+2. appropriately update the directory paths in all Stata .do files and R scripts
 3. run _master_do_file.do
+
+Other materials (e.g., codebooks, user guides, instruments) thay may assist with replication can be found here:
+
+https://www.icpsr.umich.edu/web/pages/NACJD/guides/phdcn/

@@ -26,7 +26,11 @@ tab npceduc_b [iw=miwt] if _mj!=0
 mi import ice, auto
 foreach x of varlist $outcomes { 
 	mi estimate, post: reg `x' nblack_b nhispan_b nothrace_b, cluster(nlinknc_1)
+	mi test nblack_b 
+	mi test nhispan_b
+	
 	mi estimate, post: reg `x' npcnodeg_b, cluster(nlinknc_1)
+	mi test npcnodeg_b
 	}
 
 log close

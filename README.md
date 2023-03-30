@@ -20,6 +20,6 @@ Once these data files have been obtained, the user will need to:
 2. appropriately update the directory paths in all Stata .do files and R scripts
 3. run _master_do_file.do
 
-Other materials (e.g., codebooks, user guides, instruments) thay may assist with replication can be found here:
+Other materials (e.g., codebooks, user guides, instruments) that may assist with replication can be found here:
 
 https://www.icpsr.umich.edu/web/pages/NACJD/guides/phdcn/
